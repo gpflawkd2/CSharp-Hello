@@ -4,3 +4,9 @@ D:\ETC\PJ\CSharp\ConsoleApplication\ConsoleApplication\bin\Debug\ConsoleApplicat
 D:\ETC\PJ\CSharp\ConsoleApplication\ConsoleApplication\obj\Debug\ConsoleApplication.csprojResolveAssemblyReference.cache
 D:\ETC\PJ\CSharp\ConsoleApplication\ConsoleApplication\obj\Debug\ConsoleApplication.exe
 D:\ETC\PJ\CSharp\ConsoleApplication\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
+D:\GitHub\CSharp-Hello\ConsoleApplication\bin\Debug\ConsoleApplication.exe.config
+D:\GitHub\CSharp-Hello\ConsoleApplication\obj\Debug\ConsoleApplication.exe
+D:\GitHub\CSharp-Hello\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
+D:\GitHub\CSharp-Hello\ConsoleApplication\bin\Debug\ConsoleApplication.exe
+D:\GitHub\CSharp-Hello\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
+D:\GitHub\CSharp-Hello\ConsoleApplication\obj\Debug\ConsoleApplication.csprojResolveAssemblyReference.cache
