@@ -10,39 +10,48 @@ namespace ConsoleApplication
     {
         static void Main(string[] args)
         {
-            //** for문 **
+            // Generic List
 
-            //for (var i = 0; i<=10; i++)
+            //List<string> list = new List<string>();
+
+            //list.Add("text1");
+            //list.Add("text2");
+            //list.Add("text3");
+            //list.Add("text4");
+            //list.Add("text5");
+
+            //foreach (var text in list)
             //{
-            //    Console.WriteLine(i);
+            //    Console.WriteLine(text);
             //}
 
-            //var num = 1;
-
-            //for (; num <= 10; num++)
-            //{
-            //    Console.WriteLine(num);
-            //}
-
-            //Array List
-            List<int> numberList = new List<int>();
+            var numberList = new List<int>();
 
             numberList.Add(1);
             numberList.Add(2);
             numberList.Add(3);
-            numberList.Add(4);
-            numberList.Add(5);
 
-            //foreach : 특정 object에 있는 값을 모두 출력함
+            var textList = new List<string>()
+            {
+                "text1",
+                "text2",
+                "text3",
+                "text4",
+                "text5"
+            };
+
+
             foreach (var num in numberList)
             {
                 Console.WriteLine(num);
             }
 
-            for (var index = 0; index < numberList.Count; index++)
+            foreach (var text in textList)
             {
-                Console.WriteLine(numberList[index]);
+                Console.WriteLine(text);
             }
+
+
         }
     }
 }
