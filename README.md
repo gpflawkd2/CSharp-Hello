@@ -1,5 +1,5 @@
-# C#-Hello
-C# Console Application
+# CSharp-Hello
+CSharp Console Application
 
 ## Prerequisites
 + Visual Studio 2015
