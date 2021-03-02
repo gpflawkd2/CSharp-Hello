@@ -10,47 +10,57 @@ namespace ConsoleApplication
     {
         static void Main(string[] args)
         {
-            // Generic List
+            //User Define Class
 
-            //List<string> list = new List<string>();
+            // 번호 이름   나이 연락처
+            // 01   홍길동 20   010-1234-1234
+            // 02   홍길순 21   010-4321-4321
 
-            //list.Add("text1");
-            //list.Add("text2");
-            //list.Add("text3");
-            //list.Add("text4");
-            //list.Add("text5");
+            //추가방식-1
+            //var user1 = new User();
 
-            //foreach (var text in list)
+            //user1.No = 1;
+            //user1.Name = "홍길동";
+
+            //추가방식-2
+            //var user2 = new User()
             //{
-            //    Console.WriteLine(text);
-            //}
+            //    No = 2,
+            //    Name = "홍길순",
+            //    Age = 21,
+            //    Phone = "010-4321-4321"
+            //};
 
-            var numberList = new List<int>();
-
-            numberList.Add(1);
-            numberList.Add(2);
-            numberList.Add(3);
-
-            var textList = new List<string>()
+            var list = new List<User>()
             {
-                "text1",
-                "text2",
-                "text3",
-                "text4",
-                "text5"
+                //리스트 추가방식-1
+                //user1, user2
+
+                //리스트 추가방식-2
+                new User()
+                {
+                    No = 1,
+                    Name = "홍길동",
+                    Age = 20,
+                    Phone = "010-1234-1234"
+                },
+                new User()
+                {
+                    No = 2,
+                    Name = "홍길순",
+                    Age = 21,
+                    Phone = "010-4321-4321"
+                }
             };
 
+            //리스트 추가방식-3
+            //list.Add(user1);
+            //list.Add(user2);
 
-            foreach (var num in numberList)
+            foreach (var user in list)
             {
-                Console.WriteLine(num);
+                Console.WriteLine("번호 : " + user.No + " / " + "이름 : " + user.Name);
             }
-
-            foreach (var text in textList)
-            {
-                Console.WriteLine(text);
-            }
-
 
         }
     }
