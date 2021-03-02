@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FirstLibrary;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,58 +11,18 @@ namespace ConsoleApplication
     {
         static void Main(string[] args)
         {
-            //User Define Class
+            //Calc calc = new Calc();
+            //calc.PrintHello();
+            //Console.WriteLine(calc.Plus(10, 20));
 
-            // 번호 이름   나이 연락처
-            // 01   홍길동 20   010-1234-1234
-            // 02   홍길순 21   010-4321-4321
+            //Console 프로그램에서 Main 함수는 하나여야 하므로 Project 추가시 Class Library(DLL 파일을 만들 때 사용) 선택
 
-            //추가방식-1
-            //var user1 = new User();
+            // 다른 projcet의 Class 사용시 Reference에 등록 후 사용
+            // 1)Reference 우클릭 > Add Reference > Projects > Solution > 체크
+            // 2)Ctrl + .(점): 인텔리센스를 사용하여 using~ 구문 추가
 
-            //user1.No = 1;
-            //user1.Name = "홍길동";
-
-            //추가방식-2
-            //var user2 = new User()
-            //{
-            //    No = 2,
-            //    Name = "홍길순",
-            //    Age = 21,
-            //    Phone = "010-4321-4321"
-            //};
-
-            var list = new List<User>()
-            {
-                //리스트 추가방식-1
-                //user1, user2
-
-                //리스트 추가방식-2
-                new User()
-                {
-                    No = 1,
-                    Name = "홍길동",
-                    Age = 20,
-                    Phone = "010-1234-1234"
-                },
-                new User()
-                {
-                    No = 2,
-                    Name = "홍길순",
-                    Age = 21,
-                    Phone = "010-4321-4321"
-                }
-            };
-
-            //리스트 추가방식-3
-            //list.Add(user1);
-            //list.Add(user2);
-
-            foreach (var user in list)
-            {
-                Console.WriteLine("번호 : " + user.No + " / " + "이름 : " + user.Name);
-            }
-
+            FirstClass first = new FirstClass();
+            first.FirstClassPrint();
         }
     }
 }

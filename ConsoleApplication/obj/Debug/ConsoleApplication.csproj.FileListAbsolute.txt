@@ -10,3 +10,5 @@ D:\GitHub\CSharp-Hello\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
 D:\GitHub\CSharp-Hello\ConsoleApplication\bin\Debug\ConsoleApplication.exe
 D:\GitHub\CSharp-Hello\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
 D:\GitHub\CSharp-Hello\ConsoleApplication\obj\Debug\ConsoleApplication.csprojResolveAssemblyReference.cache
+D:\GitHub\CSharp-Hello\ConsoleApplication\bin\Debug\FirstLibrary.dll
+D:\GitHub\CSharp-Hello\ConsoleApplication\bin\Debug\FirstLibrary.pdb

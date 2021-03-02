@@ -1,0 +1,5 @@
+D:\GitHub\CSharp-Hello\FirstLibrary\bin\Debug\FirstLibrary.dll
+D:\GitHub\CSharp-Hello\FirstLibrary\bin\Debug\FirstLibrary.pdb
+D:\GitHub\CSharp-Hello\FirstLibrary\obj\Debug\FirstLibrary.csprojResolveAssemblyReference.cache
+D:\GitHub\CSharp-Hello\FirstLibrary\obj\Debug\FirstLibrary.dll
+D:\GitHub\CSharp-Hello\FirstLibrary\obj\Debug\FirstLibrary.pdb
